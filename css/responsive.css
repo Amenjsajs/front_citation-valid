@@ -1,0 +1,278 @@
+@media only screen and (max-width: 1024px){
+    .gr-12.x-pub1.tof img {
+        max-width: 320px;
+        height: 260px;
+    }
+}
+@media only screen and (max-width: 1022px){
+    /*.bandeau{
+        background-color: red;
+    }*/
+    .bloc-citation{
+        text-align: center;
+    }
+    .bloc-icon{
+        padding: 0 0 0 0.5rem;
+        display: inline-block;
+    }
+    .nest{
+        margin: 0;
+    }
+    .gauche{
+        padding: 0.6rem;
+    }
+}
+@media only screen and (max-width: 921px) and (min-width: 621px){
+    .bloc-membre > div{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .bloc-membre > div:nth-child(2n+1){
+        padding: .6rem .6rem .6rem 0;
+    }
+    .bloc-membre > div:nth-child(2n+2){
+        padding: .6rem 0 .6rem .6rem;
+    }
+}
+@media only screen and (max-width: 821px){
+    .back-slide > .fz {
+        font-size: 1.5em !important;
+    }
+}
+@media only screen and (max-width: 721px){
+    /*.bandeau{
+        background-color: blue;
+    }*/
+    .bloc-icon-center{
+        display: block;
+    }
+    .global-content .x-titre{
+        text-align: center;
+        padding-left: 1.2rem;
+    }
+    .tag-text{
+        display: block;
+        border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.15);
+        padding: 0.3rem 0.3rem 1rem 0.3rem;
+        margin-bottom: 1rem;
+    }
+    .border-style{
+        border-left: none;
+    }
+    .tag-icon-right{
+        border-right: 0.0625rem solid rgba(0, 0, 0, 0.15);
+    }
+    .bloc-icon{
+        display: block;
+        padding: 0.8rem 0;
+        text-align: center;
+    }
+    .pad-bloc{
+        padding: 0;
+    }
+    /*gestion des padding*/
+    .citation, .auteur-citation, .sign-citation{
+        padding: 0.8rem 1rem;
+    }
+    /*gestion du footer*/
+    .footer .gr-d-3.gr-tl-3.gr-m-12{
+        float: none;
+        max-width: 15rem;
+        margin: auto;
+        height: auto;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .footer h2.titre{
+        text-align: center;
+        margin-left: 0;
+    }
+    /*centrage tag title*/
+    .tag-title{
+        display: inline-block;
+    }
+    .teme{
+        text-align: left;
+    }
+    .center-tag{
+        text-align: center;
+    }
+    /*trait dans entre bloc du bottom*/
+    .footer ul{
+        width: 100%;
+        padding: 0.6rem 0;
+        /*border-bottom: 0.0625rem solid rgba(255,255,255,0.25);*/
+    }
+    .js-cinq ul{
+        border-bottom: none;
+    }
+    .copiright{
+        margin-top: 1rem;
+    }
+    /*gestion les themes du jour*/
+    .theme-j ul{
+        width: 100%;
+    }
+    .theme-j{
+        max-width: 16rem;
+        float: none;
+        margin: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .ma-r{
+        border-right: none;
+    }
+    .x-titre{
+        text-align: center;
+        text-indent: inherit;
+    }
+    /*gestion formulaire de recherche*/
+    #embed-search{
+        width: 33% !important;
+    }
+    .js-btn-none{
+        display: none;
+    }
+    .js-btn-serach{
+        display: none;
+    }
+    div#lettre{
+        width: 100%;
+        text-align: center;
+    }
+    #tag-search{
+        width: 33%;
+    }
+    .btn-mobile{
+        cursor: pointer;
+    }
+    .btn-mobile.mobile-left {
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    /*mes auteurs reponsive*/
+    h2.text-color.entete.nom-auteur{
+        position: relative;
+        top: 0;
+        left: 0;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+        display: block;
+        text-align: left;
+    }
+    span.text-color.voir-plus{
+        position: relative;
+        text-align: left;
+        right: 0;
+        top: 0;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+    .padding-1 {
+        padding: 0.3rem;
+        height: auto;
+    }
+    /*caler lire plus a left et centrer les autres bloc*/
+    .mesauteurs .bloc-citation{
+        text-align: left;
+    }
+    .citation, .sign-citation{
+        text-align: center;
+    }
+
+}
+/*media 420px*/
+@media only screen and (max-width: 671px){
+    .back-slide > .fz {
+        font-size: 1.25em !important;
+    }
+    .slide-auteur {
+        font-size: 1em;
+    }
+}
+@media only screen and (max-width: 621px){
+    .bloc-membre > div {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .bloc-membre > div {
+        padding: .6rem 0 .6rem 0;
+    }
+}
+@media only screen and (max-width: 521px){
+    .back-slide {
+        height: auto !important;
+    }
+}
+@media only screen and (max-width: 420px){
+    .mobile.row.paddin-lr.x-row{
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+    .paddin-lr {
+        padding-right: 1.188rem !important;
+        padding-left: 1.188rem !important;
+    }
+    .gr-c-12{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+@media only screen and (max-width: 335px){
+    .tag-icon-right{
+        border-right: none !important;
+    }
+}
+@media only screen and (min-width: 921px){
+    .bloc-membre > div{
+        padding: .6rem;
+    }
+    .bloc-membre > div:nth-child(3n+1){
+        padding: .6rem .6rem .6rem 0;
+    }
+    .bloc-membre > div:nth-child(3n+3){
+        padding: .6rem 0 .6rem .6rem;
+    }
+}
+/*iphone 5 & 5s*/
+@media only screen and (min-device-width:320px) and (max-device-width: 658px){
+    .down{
+        display: none;
+    }
+    .logo{
+        font-size: 0.8rem;
+    }
+    .nom-bre{
+        margin: 0 !important;
+        position: relative;
+        top: 0.2rem !important;
+    }
+    .center{
+        width: 100% !important;
+    }
+    .fle-che{
+        display: block;
+        float: left;
+    }
+    .nom-bre + .fle-che{
+        float: right;
+        display: block;
+    }
+    .nom-bre{
+        /*position: relative;*/
+        /*top: -0.2rem;*/
+    }
+    .round-number {
+        width: 1.5rem !important;
+        height: 1.5rem !important;
+        padding: 0.1rem !important;
+    }
+}

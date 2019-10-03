@@ -1,0 +1,151 @@
+.x-l li a {
+    /*background-image: url(../images/right.svg);*/
+}
+.x-header {
+    background-image: url(../images/dt.jpg);
+}
+.swiper-slide {
+    background-image: url(images/quote_rigth.svg);
+}
+.footer ul li a {
+    /**/
+}
+.footer ul li a::before, .x-l li a::before{
+    content: '';
+    display: inline-block;
+    height: 1.3rem;
+    width: 1rem;
+    margin-right: 0.1rem;
+    vertical-align: middle;
+    background-image: url(../images/right.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.tag-text::before{
+    content: '';
+    display: inline-block;
+    height: 1.3rem;
+    width: 2rem;
+    vertical-align: middle;
+    background-image: url(../images/tag-r.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.x-bloccitations {
+    background-image: url(../images/quote_rig.svg);
+}
+.theme-j a {
+    /*background-image: url(../images/tag-r.svg);*/
+}
+.theme-j a::before{
+    content: '';
+    display: inline-block;
+    height: 1.7rem;
+    width: 1.8rem;
+    vertical-align: middle;
+    background-image: url(../images/tag-r.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-right: 0.3rem;
+}
+.back-slide{
+    background-image: url(../images/quote_rigth.svg);
+}
+.footer {
+    background-image: url(../images/dt.jpg);
+}
+.tag-title {
+    padding: 0.3rem;
+   /* background: transparent url(../images/tag-r.svg) top left no-repeat;*/
+}
+/*new methode to add back image sur les tags titre*/
+.tag-title::before{
+    content: '';
+    display: inline-block;
+    height: 2.5rem;
+    width: 2.5rem;
+    vertical-align: middle;
+    background-image: url(../images/tag-r.svg);
+    background-size: 2.5rem;
+    background-position: left center;
+    margin-right: 0.4rem;
+}
+/*tag icon du input de recherche*/
+#tag-search{
+    background-image: url(../images/tag-r.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+/*fin*/
+.star {
+    background-image: url(../images/etoile.svg);
+}
+.coeur{
+    background-image: url(../images/coeur.png);
+}
+.fl-left{
+    /*background-image: url(../images/fleleft.svg);*/
+    background-size: contain !important;
+}
+.fl-rig{
+    /*background: url(../images/fleright.svg);*/
+    background-size: contain !important;
+}
+/**/
+.arrow-right-blue{
+    background: url(../images/arrow-right-blue.svg);
+}
+.arrow-right-end-blue{
+    background: url(../images/arrow-right-end-blue.svg);
+}
+/**/
+.arrow-left-blue{
+    background: url(../images/arrow-left-blue.svg);
+}
+.arrow-left-end-blue{
+    background: url(../images/arrow-left-end-blue.svg);
+}
+/**/
+#span-loop {
+    background: transparent url(../images/search-left-k.svg);
+}
+#span-menu {
+    background: transparent url(../images/menu.svg);
+}
+.bk-connexion{
+  background: transparent url(../images/member-a-w.svg);  
+}
+.bk-connecter{
+  background-image: url(../images/profil.jpg);
+}
+.recent{
+    background-image: url(../images/fleright.svg);
+}
+.btn-mobile {
+    background-image: url(../images/search-in.svg);
+}
+.words a {
+    background-image: url(../images/tag-r.svg);
+}
+
+/*icon reseaux sociaux*/
+.fb {
+    background: transparent url(../images/fbk.svg);
+}
+
+.tw {
+    background: transparent url(../images/tw.svg);
+}
+
+.gp {
+    background: transparent url(../images/gp.svg);
+}
+
+.ml {
+    background: transparent url(../images/ml.svg);
+}
+/*fin icon reseaux sociaux
